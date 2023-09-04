@@ -20,7 +20,7 @@ city_value = StringVar()
 
 
 def showWeather():
-    api_key = "5039329773942e3e521f5e93093301b0"  # sample API
+    api_key = YOUR_API_KEY
     city_name = city_value.get()
 
     # API url
